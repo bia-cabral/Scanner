@@ -40,4 +40,4 @@ jobs:
       run: javac InputPipeline.java
 
     - name: Run Java program
-      run: java InputPipeline < input.txt
+      run: java InputPipeline.class < input.txt
